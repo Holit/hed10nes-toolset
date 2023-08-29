@@ -52,3 +52,5 @@ pyvis
 **thread_loop.c**：无限循环程序，展示当前程序中的线程。
 
 **gs_tester.c**：获取gs寄存器，用于x86、x64检查
+
+**Switch-Adapter.ps1**：切换指定适配器的网络信息，例如变更Ethernet适配器的IPv4配置
