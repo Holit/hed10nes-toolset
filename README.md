@@ -49,8 +49,21 @@ pyvis
 
 ### vanilla
 
+**calccrc32.py**：计算当前文件夹下所有文件的crc32值
+
+**calccrc32recur.py**：计算当前文件夹下所有文件的crc32值（包括子文件夹），用于完整性校验
+
+**dtree.py**：显示当前文件夹下的第N层文件结构
+
 **thread_loop.c**：无限循环程序，展示当前程序中的线程。
 
 **gs_tester.c**：获取gs寄存器，用于x86、x64检查
 
 **Switch-Adapter.ps1**：切换指定适配器的网络信息，例如变更Ethernet适配器的IPv4配置
+
+**print_file_type.py**：获取文件类型，用于判断样本
+
+**print_pe_arch.py**：获取可执行文件的结构
+
+**rename_as_md5.py**：将文件夹下的文件命名为其对应的md5.
+
